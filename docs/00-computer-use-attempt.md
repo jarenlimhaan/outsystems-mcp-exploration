@@ -35,3 +35,5 @@ MCP tools:     address model elements and receive structured results
 ```
 
 The MCP approach did not remove the need for validation or human review. It moved the core operation from brittle screen coordinates to explicit tools and Model API objects.
+
+The accompanying [`computer-use-skill-prototype`](../computer-use-skill-prototype/SKILL.md) reconstructs what a more complete visual-operation skill would have looked like. It documents stable navigation paths, common data, logic, REST, timer, and interface workflows, plus verification and recovery rules. Its length also illustrates why adding more instructions could reduce some mistakes but could not make pixel interaction equivalent to a semantic model API.

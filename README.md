@@ -38,6 +38,7 @@ According to the [OutSystems MCP documentation](https://success.outsystems.com/d
 - [`docs/lab-use-cases.md`](docs/lab-use-cases.md) — how the experiment relates to the Bookstore and Timer labs.
 - [`docs/demo-script.md`](docs/demo-script.md) — a short presentation walkthrough.
 - [`skill-prototype/SKILL.md`](skill-prototype/SKILL.md) — the minimal home-grown skill prototype.
+- [`computer-use-skill-prototype/SKILL.md`](computer-use-skill-prototype/SKILL.md) — a longer reconstructed skill for manually operating Service Studio through the GUI.
 - [`evidence/connection-check.md`](evidence/connection-check.md) — a real read-only connection result captured during the reconstruction.
 
 ## What the prototype proves
