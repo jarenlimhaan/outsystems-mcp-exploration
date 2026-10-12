@@ -35,6 +35,7 @@ According to the [OutSystems MCP documentation](https://success.outsystems.com/d
 - [`docs/03-pivot.md`](docs/03-pivot.md) — why the official repository replaced the prototype.
 - [`docs/architecture.md`](docs/architecture.md) — components, trust boundaries, and mutation lifecycle.
 - [`docs/multi-agent-design.md`](docs/multi-agent-design.md) — the orchestration design we considered and its limits.
+- [`docs/evaluation.md`](docs/evaluation.md) — a qualitative comparison of computer use, the custom prototypes, and the official MCP skill.
 - [`docs/lab-use-cases.md`](docs/lab-use-cases.md) — how the experiment relates to the Bookstore and Timer labs.
 - [`docs/demo-script.md`](docs/demo-script.md) — a short presentation walkthrough.
 - [`skill-prototype/SKILL.md`](skill-prototype/SKILL.md) — the minimal home-grown skill prototype.
