@@ -39,6 +39,7 @@ According to the [OutSystems MCP documentation](https://success.outsystems.com/d
 - [`docs/demo-script.md`](docs/demo-script.md) — a short presentation walkthrough.
 - [`skill-prototype/SKILL.md`](skill-prototype/SKILL.md) — the minimal home-grown skill prototype.
 - [`computer-use-skill-prototype/SKILL.md`](computer-use-skill-prototype/SKILL.md) — a longer reconstructed skill for manually operating Service Studio through the GUI.
+- [`monolithic-skill-prototype/SKILL.md`](monolithic-skill-prototype/SKILL.md) — the intentionally long, single-file version showing the early “teach every workflow in one skill” approach.
 - [`evidence/connection-check.md`](evidence/connection-check.md) — a real read-only connection result captured during the reconstruction.
 
 ## What the prototype proves
