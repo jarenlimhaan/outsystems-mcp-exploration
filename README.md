@@ -4,6 +4,8 @@
 
 This project documents an attempt to understand how an AI coding agent could inspect and eventually modify an OutSystems 11 module through the local MCP server embedded in Service Studio.
 
+Our first approach was direct computer use with Codex and Claude. We supplied the lab instructions and asked the agents to operate Service Studio through its graphical interface. They could reason about the requirements, but reliably executing them was difficult: Service Studio relies heavily on visual canvases, drag-and-drop nodes, property panels, modal dialogs, and spatial connections that are hard to verify from screenshots alone. This motivated the search for a semantic interface rather than more elaborate mouse automation.
+
 The initial idea was to write a small agent skill ourselves. The skill would teach an agent how to connect to the local server, discover its tools, inspect the open module, and generate OutSystems Model API code. That experiment quickly showed that the difficult part was not opening an MCP connection. The difficult part was preserving the Model API contract, validation rules, temporary OML state, and safe merge workflow.
 
 We also considered a multi-agent design. An orchestrator could split a lab into model discovery, service logic, UI analysis, and validation tasks, then delegate the research to specialized agents. The important constraint was that only research and planning should run in parallel. Writes against the same open Service Studio module share state and therefore need one controlled, sequential mutation pipeline.
@@ -28,6 +30,7 @@ According to the [OutSystems MCP documentation](https://success.outsystems.com/d
 ## Repository map
 
 - [`docs/01-discovery.md`](docs/01-discovery.md) — what the documentation revealed.
+- [`docs/00-computer-use-attempt.md`](docs/00-computer-use-attempt.md) — why GUI automation was not reliable enough.
 - [`docs/02-experiment-log.md`](docs/02-experiment-log.md) — the reconstructed investigation and failure points.
 - [`docs/03-pivot.md`](docs/03-pivot.md) — why the official repository replaced the prototype.
 - [`docs/architecture.md`](docs/architecture.md) — components, trust boundaries, and mutation lifecycle.

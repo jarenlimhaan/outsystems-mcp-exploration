@@ -2,6 +2,12 @@
 
 This is a retrospective reconstruction of the investigation, not a dated laboratory notebook.
 
+## Experiment 0: direct computer use
+
+We first tried using Codex and Claude computer-use capabilities with the lab instructions supplied as context. Both approaches could reason about the intended result, but operating Service Studio remained unreliable. Visual-canvas navigation, drag-and-drop flow construction, property editing, and confirmation of the underlying model state were difficult to perform consistently.
+
+This experiment reframed the problem. Instead of asking how to improve a long sequence of mouse operations, we asked whether Service Studio exposed a structured interface that an agent could call directly. That question led to the local MCP documentation.
+
 ## Experiment A: prove the endpoint is useful
 
 Goal: connect through an MCP host and ask the server which modules are loaded.
